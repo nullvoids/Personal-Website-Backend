@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   post '/messages' => 'messages#create'
   put  '/messages' => 'messages#update'
   patch '/messages' => 'messages#update'
+
+  get '/projects' => 'project#index'
 end

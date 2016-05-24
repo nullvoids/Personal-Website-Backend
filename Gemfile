@@ -9,7 +9,7 @@ gem 'pg', '~> 0.18'
 gem 'puma'
 gem 'active_model_serializers', '0.10.0.rc5'
 gem 'active-model-adapter-source', '~>2.0' # or whatever version you need
-
+gem 'sendgrid-ruby'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
 # Use Redis adapter to run Action Cable in production
@@ -33,6 +33,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'dotenv-rails'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
