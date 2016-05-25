@@ -31,6 +31,6 @@ class MessagesController < ApplicationController
 	private
 
 	def message_params 
-		ActiveModelSerializers::Deserialization.jsonapi_parse(params, only:[:from_email, :message])
+		ActiveModelSerializers::Deserialization.jsonapi_parse(params, only:[:fromEmail, :message])
 	end
 end
